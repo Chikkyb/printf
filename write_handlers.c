@@ -67,7 +67,7 @@ UNUSED(size);
 if ((flags & F_ZERO) && !(flags & F_MINUS))
 padd = '0';
 if (is_negative)
-xtra_ch = '-';
+extra_ch = '-';
 else if (flags & F_PLUS)
 extra_ch = '+';
 else if (flags & F_SPACE)
